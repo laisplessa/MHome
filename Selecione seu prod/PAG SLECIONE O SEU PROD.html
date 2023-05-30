@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .cabecalho {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+        }
+
+        .cabecalho>div {
+            width: 100%;
+            height: 100%;
+            background-color: #110B52
+        }
+
+        .botao {
+            height: 50%;
+            /* width: 25px; */
+            display: flex;
+            /* margin-top: 25px;  */
+        }
+
+        .botao>a {
+            color: white;
+            justify-content: space-between 50px;
+            font-family: verdana;
+            font-size: 20px;
+            /* border: 1px solid white; */
+            height: 25px;
+            padding: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-right: 20px;
+
+        }
+
+        .botao2 {
+            height: 50%;
+            /* width: 25px; */
+            display: flex;
+            /* margin-top: 25px;  */
+        }
+
+        .botao2>button {
+            height: 35px;
+            width: 125px;
+            border: 3px solid white;
+            border-radius: 35px;
+            justify-content: space-between;
+            text-align: center;
+            color: white;
+            font-family: Verdana;
+            font-size: 15px;
+            margin: 25px 10px 10px;
+            /* padding: 10px; */
+            background-color: #110B52
+        }
+
+        .pesquisa>form {
+            border-radius: 20px;
+            margin: 30px 0px 0px;
+            /* text-align: left; */
+            color: black;
+            font-size: 10px;
+            width: 100%;
+            height: 20%;
+            /* padding: 15px; */
+
+        }
+
+        .logo {
+            /* margin: 10px; */
+            width: 50px;
+            height: 50px;
+            align-items: center;
+        }
+
+        .logo>div {
+            /* margin: 10px; */
+            width: 80px;
+            height: 80px;
+            align-items: center;
+        }
+
+        .pai {
+
+            width: 100%;
+            height: 83vh;
+            background-color: lightgrey;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            flex-wrap: wrap;
+            /* justify-content: space-around; */
+            display: flex;
+        }
+
+        .titulo {
+            font-size: 21px;
+            font-family: HK Grotesk Medium;
+            margin: 0 0 0 45px;
+            color: #110B52;
+            width: 100%;
+            height: 8%;
+
+
+        }
+
+        .principal {
+            display: flex;
+            margin-left: 4vw;
+            margin-bottom: 2vh;
+            border: solid 1px #241B8D;
+            padding: 10px;
+            border-radius: 10px;
+            /* border: solid; */
+            height: 65vh;
+            width: 110vh;
+        }
+
+        .principal2 {
+            width: 39%;
+        }
+
+        .sprinter {
+            text-align: center;
+            font-size: 20px;
+            width: 70%;
+            height: 30px;
+            font-family: gliker;
+            margin-left: 5vh;
+
+
+        }
+
+        .divfoto {
+            margin-left: 50px;
+            width: 70%;
+            height: 200px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+
+
+        }
+
+        .foto {
+            /* height: 300px; */
+            width: 40vh;
+            text-align: center;
+        }
+
+        .desc {
+            display: flex;
+            height: 125px;
+            width: 55px;
+
+        }
+
+        .descricao1 {
+            /* margin-left: 2vh; */
+        }
+
+        .descricao2 {
+            margin-left: 40px;
+        }
+
+        .descricao3 {
+            margin-left: 45px;
+            text-align: center;
+            width: 65%;
+            font-size: 12px;
+        }
+
+        .ofertas {
+            display: block;
+        }
+
+        .oferta1 {
+            padding: 1.5vh;
+            width: 400px;
+            border: solid 1px #241B8D;
+            height: 180px;
+            border-radius: 10px;
+
+        }
+
+        .divoferta {
+            display: flex;
+            width: 77vh;
+
+
+        }
+
+        .valor {
+            margin-left: 5px;
+            margin-top: 3vh;
+            font-size: 20px;
+            color: #241B8D;
+        }
+
+        .descrofertas {
+            font-size: 15px;
+            margin-left: 20px;
+            width: 60%;
+            height: 40%;
+
+        }
+
+        .oferta2 {
+            display: relative;
+            padding: 1.5vh;
+            width: 400px;
+            border: solid  1px #241B8D;
+            border-radius: 10px;
+            height: 170px;
+        }
+
+        .divoferta2 {
+            display: flex;
+            width: 550px;
+            height: 115px;
+        }
+
+        .valor2 {
+            margin-left: 8px;
+            margin-top: 3vh;
+            font-size: 20px;
+            color: #241B8D;
+        }
+
+        .descofertas2 {
+            font-size: 15px;
+            /* margin-left: 20px; */
+            /* width: 200px; */
+            height: 100px;
+            width: 60%;
+        }
+
+        .reservar {
+            display: block;
+
+            width: 150px;
+            height: 30px;
+            /* margin-top: 10px; */
+            background-color:#244229;
+            /* margin-right: 100px; */
+            padding-top: 10px;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        
+        .reservar a{
+            color: white;
+        }
+        .res {
+            position: relative;
+            top: 7px;
+        }
+
+        .ghost {
+            height: 10px;
+            border: 1px solid transparent;
+            display: block;
+            padding: 10px;
+        }
+        .divresumo{
+        width: 80vh;
+        }
+        .resumo{
+        width: 55vh;
+        background-color: #EFF0F2;
+        margin-left:12vh;
+        margin-top: 10vh;
+        border: solid 2px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        }
+
+        .dataeditar{
+            display: flex;
+            margin-left: 2vh;
+            width: 50vh;
+        }
+        .dataeditar2{
+            display: flex;
+            margin-left: 2vh;
+        }
+        .divresumodareserva{
+           
+            background-color:#A6A6A6;
+            color: #291BC4;
+            border-radius: 2px;
+            height: 6vh;
+            width: 55vh;
+        }
+        .resumodareserva{
+            height: 6vh;
+            text-align: center;
+            font-size: 3vh;
+            background-color: gray;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-top: 10px;
+
+        }
+        .retirada{
+          color:#291BC4;
+          margin-left: 2vh;
+        }
+        .Devolução{
+            color:#291BC4;
+            margin-left: 2vh;
+        }
+
+        
+        .editar1{
+            color:#291BC4;
+            margin-left: 4vh;
+        }
+        .editar2{
+            color:#291BC4;
+            margin-left: 4vh;
+        }
+
+
+        .linha {
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 600px;
+            margin-left: 50px;
+        }
+
+        .rodape {
+            width: 100%;
+            height: 2vh;
+            background-color: #110B52
+        }
+
+        .editar{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+            <img class="logo_site" src="logo.png" height="100" width="100">
+        </div>
+        <div class="pesquisa">
+            <form action="pesquisa">
+                <label for="pesq"> </label>
+                <input type="text" id="pesq" name="pesq">
+                <button><img class="lupa" src="lupa.png" alt="image" height="12" width="12"></button>
+        </div>
+        <div class="botao">
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="botao2">
+            <button>Cadastro</button>
+            <button>Entrar</button>
+        </div>
+    </div>
+
+    <div class="pai">
+        <br>
+        <div class="titulo"><b>Selecione o melhor plano para você!</b></div>
+        <div class="principal">
+            <div class="principal2">
+                <div class="divfoto">
+                    <img class="foto" src="sprinter.png">
+                </div>
+                    <div class="sprinter"><b>Mercedes Sprinter</div></b>
+                
+                <Div class="desc">
+                    <div class="descricao1">
+                        <UL>
+                            <LI>4 Portas</LI>
+                            <LI>Vidros Elétricos</LI>
+                            <LI>Air-bag</LI>
+                        </UL>
+                    </div>
+                    <div class="descricao2">
+                        <UL>
+                            <LI>Ar-condicionado</LI>
+                            <LI>Trava Elétrica</LI>
+                            <LI>Dir. Hidráulica</LI>
+                        </UL>
+
+                    </div>
+                </div>
+                <div class="descricao3">
+                    <p>Sua reserva garante este carro.
+                        Modelo sujeito à disponibilidade da agência.</p>
+                </div>
+            </div>
+            <div class="ofertas">
+
+
+                <div class="ghost">
+
+                    <div class="oferta1">
+                        <br>
+                        <b>Oferta Econômica</b>
+
+                        <div class="divoferta">
+                            <div class="valor">
+                                <b>R$2.299,00</b>
+                            </div>
+
+                            <div class="descrofertas">
+                                <UL>
+                                    <LI>Amplas e Confortáveis camas</LI>
+                                    <LI>Entretenimento e Lazer</LI>
+                                    <LI>Paradas em Restaurantes selecionados</LI>
+                                </UL>
+                            </div>
+
+                        </div>
+                        <div class="reservar">
+                            <a href='linkpag'>Reservar</a>
+                        </div>
+
+
+                    </div>
+
+                    <br>
+
+                    <div class="oferta2">
+                        <b>Melhor oferta</b>
+                        <div class="divoferta2">
+                            <div class="valor2">
+                                <b>R$3.490,00</b>
+                            </div>
+                            <div class="descofertas2">
+                                <UL>
+                                    <LI>Café da manhã incluso</LI>
+                                    <LI>Amplas e Confortáveis camas</LI>
+                                    <LI>Entretenimento e Lazer</LI>
+                                    <LI>Pontos Turísticos</LI>
+                                    <LI>Paradas em Restaurantes de sua preferencia</LI>
+                                </UL>
+                            </div>
+                        </div>
+                        <div class="reservar">
+                            <a href='linkpag'>Reservar</a>
+                        </div>
+                        <br>
+                    </div>
+                    
+                </div>
+
+            <!-- <div class="reserva">
+            RESUMO DA RESERVA -->
+        </div>
+    </div>
+    <div class="divresumo">
+        <div class="resumo">
+            <!-- <div class="divresumodareserva"> -->
+              <div class="resumodareserva">
+                <b>RESUMO DA RESERVA</b>
+            </div>
+            <!-- </div> -->
+
+            <p class="retirada">Retirada</p>
+            <div class="dataeditar">
+            <div class="data">
+            <p>31 de Março de 2023 às 13:00<br>
+                Agencia Aeroporto Santo Angelo</p>
+            </div>
+            
+            <div class="editar1">
+            <a href="#">Editar</a>
+        </div>
+        </div>
+            
+        <p class="Devolução">Devolução</p>
+        <div class="dataeditar2">
+        <div class="data2">
+            <p>5 de Abril de 2023 às 13:00<br>
+                Agencia Aeroporto Santo Angelo</p>
+            
+        </div>
+        <div class="editar1">
+            <a href="#">Editar</a>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="rodape">
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>

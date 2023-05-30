@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 50px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<button id="clique" onclick="funclique()"> Clique aqui!</button>
+<div onmouseout="mudarcor(this, 'red')" onmouseenter="mudarcor(this, 'blue')"></div>
+    <script>
+        function funclique(){
+            document.write("Reconhecido o clique.");
+        }
+        function mudarcor(elemento, cor){
+            elemento.style.backgroundColor = cor;
+            elemento.innerHTML = "mudou de cor"
+        }
+
+        // var button = document.getElementById('clique');
+        // button.addEventListener('click', function(){
+        //     document.write("Reconhecido o clique.");
+        // });
+        
+
+    //     function nomeCompleto (nome, sobrenome){
+    //     return '<br> ${nome} ${sobrenome}';
+    // }
+
+    // const nome=nomeCompleto ("Maria", "Fernanda");{
+    // document.write(nome);
+    // }
+
+    // const nomeCompleto = function (nome, sobrenome){
+    //     return '<br> ${nome} ${sobrenome}';
+    // }
+    // document.write(nomeCompleto("Maria", "Fernanda"));
+
+    // const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;  
+    // document.write(nomeCompleto("Maria", "Fernanda"));
+
+
+    </script>
+</body>
+</html>

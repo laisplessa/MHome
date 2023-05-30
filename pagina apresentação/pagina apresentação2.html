@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina inicial</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .cabecalho {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+        }
+
+        .cabecalho>div {
+            width: 100%;
+            height: 100%;
+            background-color: #110B52;
+        }
+
+        .botao {
+            height: 50%;
+            /* width: 25px; */
+            display: flex;
+            /* margin-top: 25px;  */
+        }
+
+        .botao>a {
+            color: white;
+            justify-content: space-between 50px;
+            font-family: verdana;
+            font-size: 20px;
+            /* border: 1px solid white; */
+            height: 25px;
+            padding: 10px;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 15px;
+            margin-right: 20px;
+
+        }
+
+        .botao2 {
+            height: 50%;
+            /* width: 25px; */
+            display: flex;
+            /* margin-top: 25px;  */
+        }
+
+        .botao2>button {
+            height: 35px;
+            width: 125px;
+            border: 3px solid white;
+            border-radius: 35px;
+            justify-content: space-between;
+            text-align: center;
+            color: white;
+            font-family: Verdana;
+            font-size: 15px;
+            margin: 25px 10px 10px;
+            /* padding: 10px; */
+            background-color: #110B52;
+        }
+
+        .pesquisa>form {
+            border-radius: 20px;
+            margin: 30px 0px 0px;
+            /* text-align: left; */
+            color: black;
+            font-size: 10px;
+            width: 100%;
+            height: 20%;
+            /* padding: 15px; */
+
+        }
+
+        .logo {
+            /* margin: 10px; */
+            width: 50px;
+            height: 50px;
+            align-items: center;
+        }
+
+        .logo>div {
+            /* margin: 10px; */
+            width: 80px;
+            height: 80px;
+            align-items: center;
+        }
+
+        .principal {
+            width: 100%;
+            height: 83vh;
+            background-color: lightgrey;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            font-family: sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+
+
+
+        .divfoto {
+            /* margin-left: 370px; */
+            width: 40%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            height: 90%;
+
+        }
+        .foto{
+            /* height: 300px; */
+            width:500px;
+            text-align: center;
+        }
+
+
+
+        .titulo {
+            font-size: 50px;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 0 0 0 60px;
+            color: #110B52;
+            width: 100%;
+            height: 10%;
+        }
+
+
+        .subtitulo {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-style: oblique; */
+            margin: 0 0 0 50px;
+            background-color: black (128, 128, 128, 0.493);
+            width: 45%;
+            height: 90%;
+            border-radius: 10px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .linha {
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 600px;
+            margin-left: 50px;
+        }
+
+        .rodape {
+            width: 100%;
+            height: 2vh;
+            background-color: #110B52;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <div class="logo">
+            <img class="logo_site" src="logo.png" height="100" width="100">
+        </div>
+        <div class="pesquisa">
+            <form action="pesquisa">
+                <label for="pesq"> </label>
+                <input type="text" id="pesq" name="pesq">
+                <button><img class="lupa" src="lupa.png" alt="image" height="12" width="12"></button>
+        </div>
+        <div class="botao">
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="botao2">
+            <button>Cadastro</button>
+            <button>Entrar</button>
+        </div>
+    </div>
+    <div class="principal">
+
+        <div class="titulo">Sobre nós</div>
+
+
+        <div class="subtitulo">
+            <p>Nossa empresa foi criada no ano de 2022 através de um
+                trabalho escolar, desde então, estamos sempre nos
+                especializando em nossa área para trazer mais conforto
+                e praticidade para nossos clientes.</p>
+            <br>
+            <p>Somos uma empresa especialista em turismo dentro do
+                conforto de um casa. Faça suas viagens por seus lugares
+                favoritos, com nossas duas opções de transporte, hotel e
+                motel.</p>
+            <br>
+            <p>Nosso serviço de Hotel é para aquelas pessoas que desejam
+                um ambiente famíliar, mais simples e aconchegante, garantindo conforto, segurança e diversão para todas
+                as idades.</p>
+            <br>
+            <p>Nosso serviço de Motel é para aquelas pessoas que querem
+                uma coisa mais íntima e apimentada, com diversas opções para
+                se divertir entre duas ou mais pessoas.</p>
+        </div>
+
+        <div class="divfoto">
+            <img class="foto" src="foto.png">
+        </div>
+    </div>
+
+
+
+
+
+    </div>
+    <div class="rodape">
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>

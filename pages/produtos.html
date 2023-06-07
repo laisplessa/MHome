@@ -41,17 +41,22 @@
 
 
     <div class="form-container">
-        <input class="input" name="text" placeholder="Search..." type="search">
+        <input class="input" name="text" placeholder="Local de partida" type="search">
 
-        <input placeholder="Data de partida" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
-        <input placeholder="Data de retorno" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        <input class="textbox-n" placeholder="Data de partida" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"  />
+        <input placeholder="Data de retorno" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"  />
 
-        <input type="time" id="appt" name="appt"
-       min="09:00" max="18:00" required>
+        <input type="time" id="appt" name="appt" class="horabox-n">
 
-       <button>
+       <!-- <button>
         <span>Buscar</span>
-      </button>
+      </button> -->
+
+      <button class="button" a href="#"><img class="busca"
+        src="https://i.pinimg.com/originals/21/19/a7/2119a71377f89ade95f390dfb0564c77.png"></a>
+        Buscar
+     </button>
+     
 
 
       </div>

@@ -150,70 +150,139 @@ a:hover {
   .form-container {
     width: 80%;
     background-color: #fff;
-    padding: 2rem;
     color: rgba(243, 244, 246, 1);
     margin: auto;
     margin-top: 20px;
-    box-shadow: bottom;
     height: 12vh;
   }
 
-
-  .group {
-    display: flex;
-    line-height: 28px;
-    align-items: center;
-    position: relative;
+  .input {
     max-width: 190px;
-   }
-   
-
-
-
-
-   .input {
-    width: 300px;
-    height: 40px;
-    line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 2.5rem;
-    border: 2px solid transparent;
-    border-radius: 8px;
+    background-color: #d6d4d4;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
     outline: none;
-    background-color: #cacacd;
-    color: #0d0c22;
-    transition: .3s ease;
-    margin-left: 4vh;
-   }
-   
-   .input::placeholder {
-    color: black;
-   }
-   
-   .input:focus, input:hover {
-    outline: none;
-    border-color: blue;
-    background-color: #fff;
-    box-shadow: 0 0 0 4px rgba(70, 119, 243, 0.1);
-   }
-   
-   .icon {
-    position: absolute;
-    left: 1rem;
-    fill: black;
-    width: 1rem;
-    height: 1rem;
-    margin-left: 4vh;
-   }
-
-
-
-
-
-
-   
-   
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+    margin-top: 3vh;
+    margin-left: 3vh;
+  }
   
+  input:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  input:hover {
+    outline: 1px solid lightgrey;
+  }
+   
+   
+
+
+
+
+  label {
+    display: block;
+    font: 3rem 'Fira Sans', sans-serif;
+   
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+    font-size: 15px;
+    margin-left: 30px;
+    border: solid 2px blue;
+    border-radius: 7px;
+    width: 30vh;
+}
+
+label {
+  display: block;
+  font: 3rem 'Fira Sans', sans-serif;
+ 
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+  font-size: 15px;
+  margin-left: 30px;
+  border: solid 2px blue;
+  border-radius: 7px;
+  width: 30vh;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+
+  
+
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3d405b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 40px;
+  height: 35px;
+
+ }
+ 
+ button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button:hover span {
+  padding-right: 15px;
+ }
+ 
+ button:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -240,7 +309,7 @@ a:hover {
     list-style: none;
   }
   
-  .product-list {
+  .produto-list {
     align-items: center;
     display: flex;
     justify-content: center;
@@ -249,12 +318,12 @@ a:hover {
     width: 100%;
   }
   @media (max-width: 991px) {
-    .product-list {
+    .produto-list {
       flex-wrap: wrap;
     }
   }
   
-  .product-item {
+  .produto-item {
     border: 1px solid #e1e1e1;
     cursor: pointer;
     margin: 15px 5px;
@@ -263,19 +332,19 @@ a:hover {
     width: 100%;
     font-family: 'Poppins', sans-serif;
   }
-  .product-item .product-link {
+  .produto-item .produto-link {
     color: #555;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
   }
-  .product-item .product-info {
+  .produto-item .produto-info {
     margin: 0;
     padding: 0;
     position: relative;
     width: 100%;
     font-family: 'Poppins', sans-serif;
   }
-  .product-item .product-info .tag-procent {
+  .produto-item .produto-info .tag-procent {
     background: #f00;
     color: #fff;
     font-size: 12px;
@@ -286,7 +355,7 @@ a:hover {
     top: 10px;
     font-family: 'Poppins', sans-serif;
   }
-  .product-item .product-info-img {
+  .produto-item .produto-info-img {
     /* border-bottom: 1px solid #e1e1e1; */
     height: 240px;
     width: 100%;
@@ -298,10 +367,10 @@ a:hover {
     border-left: 1px solid rgb(182, 181, 181);
     border-top: 1px solid rgb(182, 181, 181);
   }
-  .product-item .product-info-img img {
+  .produto-item .produto-info-img img {
     max-width: 200px;
   }
-  .product-item .product-info-description {
+  .produto-item .produto-info-descricao {
     padding: 15px;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -309,13 +378,13 @@ a:hover {
     border-left: 1px solid rgb(182, 181, 181);
   
   }
-  .product-item .product-info-description .title {
+  .produto-item .produto-info-descricao .title {
     font-size: 20px;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
   }
-  .product-item .product-info-description .description {
+  .produto-item .produto-info-descricao .descricao {
     height: 30px;
     margin: 3px 0;
     -webkit-box-orient: vertical;
@@ -325,7 +394,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
   }
-  .product-item .price-box {
+  .produto-item .valor-box {
     align-items: center;
     border-top: 1px solid #e1e1e1;
     display: flex;
@@ -336,41 +405,41 @@ a:hover {
     border-left: 1px solid rgb(182, 181, 181);
     border-bottom: 1px solid rgb(182,181,181);
   }
-  .product-item .price del {
+  .produto-item .valor del {
     color: #ccc;
     font-size: 14px;
     margin-right: 10px;
   }
-  .product-item .price ins {
+  .produto-item .valor ins {
     color: #4d61fc;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
   }
-  .product-item .price .price-info {
+  .produto-item .valor .valor-info {
     color: #4d61fc;
     display: block;
     font-weight: bold;
     margin-top: 5px;
   }
-  .product-item .star-ranking {
+  .produto-item .avaliacao {
     display: flex;
     margin-top: 10px;
   }
-  .product-item .star-ranking img {
+  .produto-item .avaliacao img {
     max-width: 15px;
   }
-  .product-item .star-ranking .qtd-votes {
+  .produto-item .avaliacao .qtd-votos {
     color: #555;
     font-size: 12px;
     margin-left: 10px;
   }
-  .product-item:hover {
+  .produto-item:hover {
     transform: translateY(-2px);
     box-shadow: -2px 48px 56px -41px rgba(0, 0, 0, 0.37);
   }
   
-  .btn-buy {
+  .btn-comprar {
     background: #4d61fc;
     border: 0;
     color: #fff;
@@ -379,13 +448,20 @@ a:hover {
     text-decoration: none;
     transition: 0.2s;
   }
-  .btn-buy .fas {
+  .btn-comprar .fas {
     margin-left: 3px;
   }
-  .btn-buy:hover {
+  .btn-comprar:hover {
     background: #0c1979;
   }
   
-  .d-block {
+  .valorreserva {
     display: block;
   }
+
+
+
+
+
+
+  

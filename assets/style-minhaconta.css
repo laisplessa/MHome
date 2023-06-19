@@ -135,7 +135,7 @@ justify-content: center;
 
             
 
-
+/*fundo da tela*/
             .principal {
                 width: 100%;
                 height: 90vh;
@@ -144,7 +144,7 @@ justify-content: center;
                 
             }
 
-
+/* "Meu perfil" */
             .titulo{
                 font-size: 30px;
                 font-family: 'Poppins', sans-serif;
@@ -153,7 +153,7 @@ justify-content: center;
             
             }
 
-
+/* "Gerenciar e proteger sua conta" */
             .subtitulo{
                 font-size: 18px;
                 font-family: 'Poppins', sans-serif;
@@ -188,12 +188,14 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
+    
+/* caixa "Nome" */ 
+    .caixadetexto {
     position: relative;
     margin: 0 0 0 60px;
     }
 
-    .wave-group .input {
+    .caixadetexto .input {
     font-size: 16px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -205,11 +207,11 @@ justify-content: center;
 
     }
 
-    .wave-group .input:focus {
+    .caixadetexto .input:focus {
     outline: none;
     }
 
-    .wave-group .label {
+    .caixadetexto .label {
     color: black;
     font-size: 18px;
     font-weight: normal;
@@ -221,26 +223,26 @@ justify-content: center;
     width: 500px;
     }
 
-    .wave-group .label-char {
+    .caixadetexto .label-char {
     transition: 0.2s ease all;
     transition-delay: calc(var(--index) * .05s);
     }
 
-    .wave-group .input:focus ~ label .label-char,
-    .wave-group .input:valid ~ label .label-char {
+    .caixadetexto .input:focus ~ label .label-char,
+    .caixadetexto .input:valid ~ label .label-char {
     transform: translateY(-20px);
     font-size: 14px;
     color: #5264AE;
 
     }
 
-    .wave-group .bar {
+    .caixadetexto .bar {
     position: relative;
     display: block;
     width: 500px;
     }
 
-    .wave-group .bar:before,.wave-group .bar:after {
+    .caixadetexto .bar:before,.caixadetexto .bar:after {
     content: '';
     height: 2px;
     width: 10;
@@ -252,16 +254,16 @@ justify-content: center;
     -webkit-transition: 0.2s ease all;
     }
 
-    .wave-group .bar:before {
+    .caixadetexto .bar:before {
     left: 50%;
     }
 
-    .wave-group .bar:after {
+    .caixadetexto .bar:after {
     right: 50%;
     }
 
-    .wave-group .input:focus ~ .bar:before,
-    .wave-group .input:focus ~ .bar:after {
+    .caixadetexto .input:focus ~ .bar:before,
+    .caixadetexto .input:focus ~ .bar:after {
     width: 50%;
     }
 
@@ -286,12 +288,14 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
+            
+        /* caixa "CPF" */     
+            .caixadetexto {
                 position: relative;
                 margin: 0 0 0 60px;
             }
             
-            .wave-group .input {
+            .caixadetexto .input {
                 font-size: 16px;
                 padding: 10px 10px 10px 5px;
                 display: block;
@@ -303,11 +307,11 @@ justify-content: center;
             
             }
             
-            .wave-group .input:focus {
+            .caixadetexto .input:focus {
                 outline: none;
             }
             
-            .wave-group .label {
+            .caixadetexto .label {
                 color: black;
                 font-size: 18px;
                 font-weight: normal;
@@ -319,26 +323,26 @@ justify-content: center;
                 width: 500px;
             }
             
-            .wave-group .label-char {
+            .caixadetexto .label-char {
                 transition: 0.2s ease all;
                 transition-delay: calc(var(--index) * .05s);
             }
             
-            .wave-group .input:focus ~ label .label-char,
-            .wave-group .input:valid ~ label .label-char {
+            .caixadetexto .input:focus ~ label .label-char,
+            .caixadetexto .input:valid ~ label .label-char {
                 transform: translateY(-20px);
                 font-size: 14px;
                 color: #5264AE;
             
             }
             
-            .wave-group .bar {
+            .caixadetexto .bar {
                 position: relative;
                 display: block;
                 width: 500px;
             }
             
-            .wave-group .bar:before,.wave-group .bar:after {
+            .caixadetexto .bar:before,.caixadetexto .bar:after {
                 content: '';
                 height: 2px;
                 width: 10;
@@ -350,16 +354,16 @@ justify-content: center;
                 -webkit-transition: 0.2s ease all;
             }
             
-            .wave-group .bar:before {
+            .caixadetexto .bar:before {
                 left: 50%;
             }
             
-            .wave-group .bar:after {
+            .caixadetexto .bar:after {
                 right: 50%;
             }
             
-            .wave-group .input:focus ~ .bar:before,
-            .wave-group .input:focus ~ .bar:after {
+            .caixadetexto .input:focus ~ .bar:before,
+            .caixadetexto .input:focus ~ .bar:after {
                 width: 50%;
             }
 
@@ -385,12 +389,14 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
+
+            /* caixa "Email" */   
+            .caixadetexto {
                 position: relative;
                 margin: 0 0 0 60px;
             }
             
-            .wave-group .input {
+            .caixadetexto .input {
                 font-size: 16px;
                 padding: 10px 10px 10px 5px;
                 display: block;
@@ -402,11 +408,11 @@ justify-content: center;
             
             }
             
-            .wave-group .input:focus {
+            .caixadetexto .input:focus {
                 outline: none;
             }
             
-            .wave-group .label {
+            .caixadetexto .label {
                 color: black;
                 font-size: 18px;
                 font-weight: normal;
@@ -418,26 +424,26 @@ justify-content: center;
                 width: 500px;
             }
             
-            .wave-group .label-char {
+            .caixadetexto .label-char {
                 transition: 0.2s ease all;
                 transition-delay: calc(var(--index) * .05s);
             }
             
-            .wave-group .input:focus ~ label .label-char,
-            .wave-group .input:valid ~ label .label-char {
+            .caixadetexto .input:focus ~ label .label-char,
+            .caixadetexto .input:valid ~ label .label-char {
                 transform: translateY(-20px);
                 font-size: 14px;
                 color: #5264AE;
             
             }
             
-            .wave-group .bar {
+            .caixadetexto .bar {
                 position: relative;
                 display: block;
                 width: 500px;
             }
             
-            .wave-group .bar:before,.wave-group .bar:after {
+            .caixadetexto .bar:before,.caixadetexto .bar:after {
                 content: '';
                 height: 2px;
                 width: 10;
@@ -449,16 +455,16 @@ justify-content: center;
                 -webkit-transition: 0.2s ease all;
             }
             
-            .wave-group .bar:before {
+            .caixadetexto .bar:before {
                 left: 50%;
             }
             
-            .wave-group .bar:after {
+            .caixadetexto .bar:after {
                 right: 50%;
             }
             
-            .wave-group .input:focus ~ .bar:before,
-            .wave-group .input:focus ~ .bar:after {
+            .caixadetexto .input:focus ~ .bar:before,
+            .caixadetexto .input:focus ~ .bar:after {
                 width: 50%;
             }
 
@@ -483,12 +489,14 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
+
+            /* caixa "Número" */   
+            .caixadetexto {
                 position: relative;
                 margin: 0 0 0 60px;
             }
             
-            .wave-group .input {
+            .caixadetexto .input {
                 font-size: 16px;
                 padding: 10px 10px 10px 5px;
                 display: block;
@@ -500,11 +508,11 @@ justify-content: center;
             
             }
             
-            .wave-group .input:focus {
+            .caixadetexto .input:focus {
                 outline: none;
             }
             
-            .wave-group .label {
+            .caixadetexto .label {
                 color: black;
                 font-size: 18px;
                 font-weight: normal;
@@ -516,26 +524,26 @@ justify-content: center;
                 width: 500px;
             }
             
-            .wave-group .label-char {
+            .caixadetexto .label-char {
                 transition: 0.2s ease all;
                 transition-delay: calc(var(--index) * .05s);
             }
             
-            .wave-group .input:focus ~ label .label-char,
-            .wave-group .input:valid ~ label .label-char {
+            .caixadetexto .input:focus ~ label .label-char,
+            .caixadetexto .input:valid ~ label .label-char {
                 transform: translateY(-20px);
                 font-size: 14px;
                 color: #5264AE;
             
             }
             
-            .wave-group .bar {
+            .caixadetexto .bar {
                 position: relative;
                 display: block;
                 width: 500px;
             }
             
-            .wave-group .bar:before,.wave-group .bar:after {
+            .caixadetexto .bar:before,.caixadetexto .bar:after {
                 content: '';
                 height: 2px;
                 width: 10;
@@ -547,16 +555,16 @@ justify-content: center;
                 -webkit-transition: 0.2s ease all;
             }
             
-            .wave-group .bar:before {
+            .caixadetexto .bar:before {
                 left: 50%;
             }
             
-            .wave-group .bar:after {
+            .caixadetexto .bar:after {
                 right: 50%;
             }
             
-            .wave-group .input:focus ~ .bar:before,
-            .wave-group .input:focus ~ .bar:after {
+            .caixadetexto .input:focus ~ .bar:before,
+            .caixadetexto .input:focus ~ .bar:after {
                 width: 50%;
             }
 
@@ -581,12 +589,14 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
+
+            /* caixa "Data de Nascimento" */   
+            .caixadetexto{
                 position: relative;
                 margin: 0 0 0 60px;
             }
             
-            .wave-group .input {
+            .caixadetexto .input {
                 font-size: 16px;
                 padding: 10px 10px 10px 5px;
                 display: block;
@@ -598,11 +608,11 @@ justify-content: center;
             
             }
             
-            .wave-group .input:focus {
+            .caixadetexto .input:focus {
                 outline: none;
             }
             
-            .wave-group .label {
+            .caixadetexto .label {
                 color: black;
                 font-size: 18px;
                 font-weight: normal;
@@ -614,26 +624,26 @@ justify-content: center;
                 width: 500px;
             }
             
-            .wave-group .label-char {
+            .caixadetexto .label-char {
                 transition: 0.2s ease all;
                 transition-delay: calc(var(--index) * .05s);
             }
             
-            .wave-group .input:focus ~ label .label-char,
-            .wave-group .input:valid ~ label .label-char {
+            .caixadetexto .input:focus ~ label .label-char,
+            .caixadetexto .input:valid ~ label .label-char {
                 transform: translateY(-20px);
                 font-size: 14px;
                 color: #5264AE;
             
             }
             
-            .wave-group .bar {
+            .caixadetexto .bar {
                 position: relative;
                 display: block;
                 width: 500px;
             }
             
-            .wave-group .bar:before,.wave-group .bar:after {
+            .caixadetexto .bar:before,.caixadetexto .bar:after {
                 content: '';
                 height: 2px;
                 width: 10;
@@ -645,16 +655,16 @@ justify-content: center;
                 -webkit-transition: 0.2s ease all;
             }
             
-            .wave-group .bar:before {
+            .caixadetexto.bar:before {
                 left: 50%;
             }
             
-            .wave-group .bar:after {
+            .caixadetexto .bar:after {
                 right: 50%;
             }
             
-            .wave-group .input:focus ~ .bar:before,
-            .wave-group .input:focus ~ .bar:after {
+            .caixadetexto .input:focus ~ .bar:before,
+            .caixadetexto .input:focus ~ .bar:after {
                 width: 50%;
             }
 
@@ -679,82 +689,8 @@ justify-content: center;
                 font-size: 15px;
             } */
 
-            .wave-group {
-                position: relative;
-                margin: 0 0 0 60px;
-            }
+
             
-            .wave-group .input {
-                font-size: 16px;
-                padding: 10px 10px 10px 5px;
-                display: block;
-                width: 485px;
-                border: none;
-                border-bottom: 1px solid black;
-                background: transparent;
-                /* margin: 0 0 0 60px; */
-            
-            }
-            
-            .wave-group .input:focus {
-                outline: none;
-            }
-            
-            .wave-group .label {
-                color: black;
-                font-size: 18px;
-                font-weight: normal;
-                position: absolute;
-                pointer-events: none;
-                left: 5px;
-                top: 10px;
-                display: flex;
-                width: 500px;
-            }
-            
-            .wave-group .label-char {
-                transition: 0.2s ease all;
-                transition-delay: calc(var(--index) * .05s);
-            }
-            
-            .wave-group .input:focus ~ label .label-char,
-            .wave-group .input:valid ~ label .label-char {
-                transform: translateY(-20px);
-                font-size: 14px;
-                color: #5264AE;
-            
-            }
-            
-            .wave-group .bar {
-                position: relative;
-                display: block;
-                width: 500px;
-            }
-            
-            .wave-group .bar:before,.wave-group .bar:after {
-                content: '';
-                height: 2px;
-                width: 10;
-                bottom: 1px;
-                position: absolute;
-                background: #5264AE;
-                transition: 0.2s ease all;
-                -moz-transition: 0.2s ease all;
-                -webkit-transition: 0.2s ease all;
-            }
-            
-            .wave-group .bar:before {
-                left: 50%;
-            }
-            
-            .wave-group .bar:after {
-                right: 50%;
-            }
-            
-            .wave-group .input:focus ~ .bar:before,
-            .wave-group .input:focus ~ .bar:after {
-                width: 50%;
-            }
 
 
             /* .confirmarsenha{
@@ -808,6 +744,8 @@ justify-content: center;
                 margin-top: -50px;
             } */
 
+
+            /* botão salvar */
             button {
                 --primary-color: rgb(72, 170, 231);
                 --secondary-color: black;

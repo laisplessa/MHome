@@ -132,6 +132,9 @@ display: flex;
 justify-content: center;
 }
 
+
+
+/* Titulo do "fundo" (PAGAMENTO) */
 .titulo {
     font-size: 27px;
     font-family: 'Poppins', sans-serif;
@@ -146,6 +149,8 @@ justify-content: center;
     height: 90vh;
 }
 
+
+/* caixa de fundo */
 .box{
     width: 33%;
     height: 490px;
@@ -157,6 +162,7 @@ justify-content: center;
 }
 
 
+/*  titulo da box "DADOS DO CARTÃO" */
 .dados{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -166,6 +172,8 @@ justify-content: center;
     /* margin-left: 29vh ; */
     text-align: center;
 
+
+/* input para as caixas de texto */
 }
     .inputBox input{
 	position: relative;
@@ -187,6 +195,7 @@ justify-content: center;
 }
 
 
+/* caixa de texto "Número do cartão" */
 .numero{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -196,6 +205,8 @@ justify-content: center;
     margin-left: 3vh;
 }
 
+
+/* caixa de texto "Nome no cartão" */
 .nomecartao{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -205,6 +216,8 @@ justify-content: center;
     margin-left: 3vh;
 }
 
+
+/* caixa de texto "Validade do cartão" */
 .validade{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -214,6 +227,8 @@ justify-content: center;
     margin-left: 3vh;
 }
 
+
+/* caixa de texto "Código CVC" */
 .cvc{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -223,6 +238,8 @@ justify-content: center;
     margin-left: 3vh;
 }
 
+
+/* menu pra selecionar a quantidade de parcelas */
 .parcelas{
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -237,6 +254,8 @@ justify-content: center;
     align-items: center;
 }
 
+
+/* texto de "Parcelamento" */
 .textoparcelas{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -248,6 +267,8 @@ justify-content: center;
     align-items: center;
 }
 
+
+/* Botão "Finalizar reserva" */
 button {
     padding: 1.3em 3em;
     font-size: 12px;

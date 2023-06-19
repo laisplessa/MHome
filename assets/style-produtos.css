@@ -138,7 +138,7 @@ padding: 0 2rem;
 
 
 
-
+/* caixa de fundo para caixa de busca */
 .form-container {
   width: 76.3%;
   background-color: #fff;
@@ -148,6 +148,8 @@ padding: 0 2rem;
   height: 12vh;
 }
 
+
+/* input para caixa de texto "Local de partida" */
 .input {
   max-width: 190px;
   background-color: #d6d4d4;
@@ -195,6 +197,7 @@ label {
 
 
 
+/* caixa de texto para "Data de partida" e "Data de retorno" */
 .textbox-n {
   max-width: 190px;
   background-color: #d6d4d4;
@@ -219,6 +222,8 @@ label {
   /* margin: 0.4rem 0; */
 }
 
+
+/* caixa para selecionar o horário de partida */
 .horabox-n {
   max-width: 190px;
   background-color: #d6d4d4;
@@ -283,6 +288,8 @@ label {
   right: 0;
  } */
 
+
+/* botão para "buscar" */
 .button {
   width: 140px;
   height: 38px;
@@ -311,38 +318,21 @@ label {
   transition-duration: .2s;
 }
 
+
+/* ícone de busca */
 .busca {
   width: 23px;
   height: 14px;
   position: relative;
   color: #011E44;
   -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
   align-items: center;
   right: 10px;
 }
 
 
-.vitrine {
-  display: block;
-  margin: 50px auto;
-  max-width: 1300px;
-  text-align: center;
-  width: 100%;
-}
-
-
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  list-style: none;
-}
-
+/* "vitrine" dos produtos */
 .produto-list {
   align-items: center;
   display: flex;
@@ -491,6 +481,8 @@ ul li {
   box-shadow: -2px 48px 56px -41px rgba(0, 0, 0, 0.37);
 }
 
+
+/* botão "Reservar agora" */
 .btn-comprar {
   background: #4d61fc;
   border: 0;

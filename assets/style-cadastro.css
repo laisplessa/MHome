@@ -153,7 +153,7 @@ justify-content: center;
   background: #fff;
   padding: 34px;
   border-radius: 6px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-left: 33%;
   margin-top: 5vh;
   margin-bottom: 10vh;
@@ -162,9 +162,10 @@ justify-content: center;
   position: relative;
   font-size: 22px;
   font-weight: 600;
-  color: #333;
+  color: #000;
+  margin-left: 19vh;
 }
-.wrapper h2::before{
+/* .wrapper h2::before{
   content: '';
   position: absolute;
   left: 0;
@@ -173,7 +174,7 @@ justify-content: center;
   width: 28px;
   border-radius: 12px;
   background: blue;
-}
+} */
 .wrapper form{
   margin-top: 30px;
 }
@@ -196,7 +197,7 @@ form .input-box input{
 }
 .input-box input:focus,
 .input-box input:valid{
-  border-color: lightskyblue;
+  border-color: blue;
 }
 form .policy{
   display: flex;

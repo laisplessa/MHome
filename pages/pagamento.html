@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagamento</title> 
-    <link rel="stylesheet" type="text/css" href="assets/style-pagamento.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style-pagamento.css">
    </head>
 <body>
   <header>
@@ -35,15 +35,22 @@
 
 
 <!-- titulo "Pagamento" -->
-    <div class="titulo">PAGAMENTO</div>
+    <!-- <div class="titulo">PAGAMENTO</div> -->
 
 
 <!-- box com as caixas de texto e as parcelas -->    
     <div class="box">
-      <div class ="dados">DADOS DO CARTÃO</div>
-      <div class="numero">
-        <div class="inputBox">
-          <input type="text" required="required" placeholder="Número do cartão" maxlength="19" ></div></div>
+      <div class ="dados">Dados do cartão</div>
+
+      
+
+
+
+      <form class="form" action="/login" method="post">
+        <div class="input-caixausuario">
+          <label for="username">Usuário</label>
+          <input type="text" name="username" id="username" placeholder="">
+        </div>
       <div class="nomecartao">
         <div class="inputBox"> 
           <input type="text" required="required" placeholder="Nome do cartão"></div></div>

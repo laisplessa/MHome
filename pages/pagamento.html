@@ -8,22 +8,24 @@
    </head>
 <body>
   <header>
+    <!--Barra de navegação-->
     <div class="navbar">
         <div class="logoimagem"> 
-            <img src="https://i.pinimg.com/originals/8b/5c/e9/8b5ce93cf536a710ccec51ef0bdf46e9.png" alt="Logo MHome" width="25%" height="25%">
+          <img src="https://i.pinimg.com/originals/8b/5c/e9/8b5ce93cf536a710ccec51ef0bdf46e9.png" alt="Logo MHome" width="25%" height="25%">
         </div>
+        <!--Links da barra de navegação-->
         <ul class="links">
-            <li><a class="links1" href="hero">Início</a></li>
-            <li><a class="links1" href="products">Produtos</a></li>
-            <li><a class="links1" href="about">Sobre</a></li>
-            <li><a class="links1" href="contact">Contato</a></li>
+            <li><a class="links1" a href="index.html">Início</a></li>
+            <li><a class="links1" a href="produtos.html">Produtos</a></li>
+            <li><a class="links1" a href="sobrenos.html">Sobre</a></li>
+            <li><a class="links1" a href="contato.html">Contato</a></li>
         </ul>
-        <a href="#" class="action_btn">Começar</a>
+        <!-- <a href="cadastro.html" class="action_btn">Começar</a>
         <div class="toggle_btn">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"></i> -->
         </div>
     </div>
-
+    <!--Links menu suspenso-->
     <div class="dropdown_menu">
         <li><a href="hero">Início</a></li>
             <li><a href="products">Produtos</a></li>
@@ -40,6 +42,7 @@
 
 <!-- box com as caixas de texto e as parcelas -->    
     <div class="box">
+      <br>
       <div class ="dados">Dados do cartão</div>
 
       
@@ -47,19 +50,25 @@
 
 
       <form class="form" action="/login" method="post">
-        <div class="input-caixausuario">
-          <label for="username">Usuário</label>
-          <input type="text" name="username" id="username" placeholder="">
+        <div class="input-caixanumero">
+          <label for="username">Número do cartão</label>
+          <input type="text" name="username" id="username" maxlength="16" placeholder="**** **** **** ****">
         </div>
-      <div class="nomecartao">
-        <div class="inputBox"> 
-          <input type="text" required="required" placeholder="Nome do cartão"></div></div>
-      <div class="validade">
-        <div class="inputBox"> 
-          <input type="text" required="required" placeholder="Data de validade" maxlength="5"></div></div>
-      <div class="cvc">
-        <div class="inputBox"> 
-          <input type="text" required="required" placeholder="Código CVC" maxlength="3"></div></div>
+
+        <div class="input-caixanome">
+          <label for="username">Nome no cartão</label>
+          <input type="text" name="username" id="username" placeholder="Apenas letras">
+        </div>
+
+        <div class="input-caixanome">
+          <label for="username">Validade</label>
+          <input type="text" name="username" id="username" maxlength="5" placeholder="**/**">
+        </div>
+
+        <div class="input-caixanome">
+          <label for="username">Código CVC</label>
+          <input type="text" name="username" id="username" maxlength="3" placeholder="***">
+        </div>
      
           <div class ="textoparcelas">Parcelamento
           <select class="parcelas">

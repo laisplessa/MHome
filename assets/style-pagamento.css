@@ -5,16 +5,19 @@ body {
     background-color: #EFF0F2;
 }
 
+/*Lista*/
 li {
 list-style: none;
 }
 
+/*Ancora de links*/
 a {
 text-decoration: none;
 color: #fff;
 font-size: 1rem;
 }
 
+/*Hover da ancora de links*/
 a:hover {
 color: lightskyblue;
 }
@@ -24,6 +27,7 @@ position: relative;
 padding: 0 2rem;
 } */
 
+/*Barra de navegação*/
 .navbar {
 width: 100%;
 height: 60px;
@@ -32,31 +36,30 @@ margin: 0 auto;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
 }
 
+/*Barra de navegação e imagem da logo*/
 .navbar .logoimagem{
 margin-top: 20px;
-
 }
 
+/*Barra de navegação e logo*/
 .navbar .logo a {
 font-size: 1.5rem;
 font-weight: bold;
-
 }
 
-
+/*Links da barra de navegação*/
 .navbar .links {
 display: flex;
 gap: 1rem;
 /* box-shadow: 0 0 10px green, 0 0 10px blue; */
 align-items: center;
 
+/*Links da barra de navegação*/
 }
 .navbar .links1 {
 display: flex;
-
 /* gap: 2rem; */
 box-shadow: 0 0 5px rgb(0, 0, 0);
 border-radius: 15px;
@@ -66,10 +69,9 @@ padding-left: 10px;
 padding-right: 10px;
 color: black;
 font-family: 'Poppins', sans-serif;
-
-
 }
 
+/*Botão de alternância da barra de navegação*/
 .navbar .toggle_btn {
 color: #fff;
 font-size: 1.5rem;
@@ -77,7 +79,8 @@ cursor: pointer;
 display: none;
 }
 
-.action_btn {
+/*Botão de ação da barra de navegação*/
+/* .action_btn {
 background-color: lightskyblue;
 color: black;
 padding: 0.5rem 1rem;
@@ -89,13 +92,15 @@ font-weight: bold;
 cursor: pointer;
 transition: scale 0.2 ease;
 margin-left: 10px;
-}
+} */
 
+/*Hover do botão de ação*/
 .action_btn:hover {
 scale: 1.05;
 color: #fff;
 }
 
+/*Botão de ação ativo*/
 .action_btn:active {
 scale: 0.95;
 }
@@ -115,10 +120,12 @@ overflow: hidden;
 transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+/*Menu suspenso aberto*/
 .dropdown_menu.open{
 height: 240px;
 }
 
+/*Lista do menu suspenso*/
 .dropdown_menu li {
 padding: 0.7rem;
 display: flex;
@@ -126,12 +133,12 @@ align-items: center;
 justify-content: center;
 }
 
+/*Menu suspenso com o botão de ação*/
 .dropdown_menu .action_btn {
 width: 100%;
 display: flex;
 justify-content: center;
 }
-
 
 
 /* Titulo do "fundo" (PAGAMENTO) */
@@ -153,10 +160,10 @@ justify-content: center;
 /* caixa de fundo */
 .box{
     width: 33%;
-    height: 460px;
+    height: 87vh;
     background-color: white;
     margin: auto;
-    margin-top: 7vh;
+    margin-top: 4vh;
     border-radius: 0.75rem;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2)
     
@@ -198,47 +205,47 @@ justify-content: center;
 
 
 /* caixa de texto "Número do cartão" */
-.numero{
+/* .numero{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
     width: 100%; 
     margin-top: 1vh;
     margin-left: 3vh;
-}
+} */
 
 
 /* caixa de texto "Nome no cartão" */
-.nomecartao{
+/* .nomecartao{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
     width: 100%; 
     margin-top: 3vh;
     margin-left: 3vh;
-}
+} */
 
 
 /* caixa de texto "Validade do cartão" */
-.validade{
+/* .validade{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
     width: 100%; 
     margin-top: 3vh;
     margin-left: 3vh;
-}
+} */
 
 
 /* caixa de texto "Código CVC" */
-.cvc{
+/* .cvc{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: black;
     width: 100%; 
     margin-top: 3vh;
     margin-left: 3vh;
-}
+} */
 
 
 /* menu pra selecionar a quantidade de parcelas */
@@ -254,17 +261,19 @@ justify-content: center;
     margin-left: 5%;
     display: flex;
     align-items: center;
+    border: 1.5px solid #C7BEBE;
+    border-radius: 5px;
 }
 
 
 /* texto de "Parcelamento" */
 .textoparcelas{
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     color: rgb(15, 14, 14);
     /* width: 100%;  */
     margin-top: 4vh;
-    margin-left: 4vh;
+    margin-left: 5vh;
     display: flex;
     align-items: center;
 }
@@ -280,7 +289,7 @@ button {
     color: #fff;
     background-color: blue;
     border: none;
-    border-radius: 45px;
+    border-radius: 0.375rem;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
@@ -302,36 +311,162 @@ button {
 
 
   
-/*caixa de texto usuário*/
-.input-caixausuario {
+/*caixa de texto numero do cartão*/
+.input-caixanumero {
   margin-top: 0.25rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.25rem;
 }
 
-/*caixa de texto usuário*/
-.input-caixausuario label {
+/*caixa de texto numero*/
+.input-caixanumero label {
   display: block;
   color: rgb(37, 37, 37);
   margin-bottom: 4px;
   font-family: 'Poppins', sans-serif;
+  margin-left: 5vh;
+  margin-top: 3vh;
 }
 
-/*caixa de texto usuário*/
-.input-caixausuario input {
-  width: 60%;
+/*caixa de texto numero*/
+.input-caixanumero input {
+  width: 75%;
   border-radius: 0.375rem;
-  border: 1px solid black;
+  border: 1.5px solid #C7BEBE;
   outline: 0;
   background-color: #fff;
   padding: 0.75rem 1rem;
   color: black;
   cursor: pointer;
   margin-left: 5vh;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
 }
 
-/*caixa de texto usuário*/
-.input-caixausuario input:focus {
+/*caixa de texto numero*/
+.input-caixanumero input:focus {
   border-color: blue;
 }
-                            
+
+
+
+
+
+
+/*caixa de texto usuário*/
+.input-caixanome {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixanome label {
+    display: block;
+    color: rgb(37, 37, 37);
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5vh;
+    margin-top: 3vh;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixanome input {
+    width: 75%;
+  border-radius: 0.375rem;
+  border: 1.5px solid #C7BEBE;
+  outline: 0;
+  background-color: #fff;
+  padding: 0.75rem 1rem;
+  color: black;
+  cursor: pointer;
+  margin-left: 5vh;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixanome input:focus {
+    border-color: blue;
+  }
+
+
+
+
+
+  /*caixa de texto usuário*/
+.input-caixavalidade {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixavalidade label {
+    display: block;
+    color: rgb(37, 37, 37);
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5vh;
+    margin-top: 3vh;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixavalidade input {
+    width: 75%;
+    border-radius: 0.375rem;
+    border: 1.5px solid #C7BEBE;
+    outline: 0;
+    background-color: #fff;
+    padding: 0.75rem 1rem;
+    color: black;
+    cursor: pointer;
+    margin-left: 5vh;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixavalidade input:focus {
+    border-color: blue;
+  }
+
+
+
+
+    /*caixa de texto usuário*/
+.input-caixacvc {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixacvc label {
+    display: block;
+    color: rgb(37, 37, 37);
+    margin-bottom: 4px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5vh;
+    margin-top: 3vh;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixacvc input {
+    width: 75%;
+    border-radius: 0.375rem;
+    border: 1.5px solid #C7BEBE;
+    outline: 0;
+    background-color: #fff;
+    padding: 0.75rem 1rem;
+    color: black;
+    cursor: pointer;
+    margin-left: 5vh;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /*caixa de texto usuário*/
+  .input-caixacvc input:focus {
+    border-color: blue;
+  }

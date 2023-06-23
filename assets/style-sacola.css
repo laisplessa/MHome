@@ -36,6 +36,7 @@ margin: 0 auto;
 display: flex;
 align-items: center;
 justify-content: space-between;
+font-family: 'Poppins', sans-serif;
 }
 
 /*Barra de navegação e imagem da logo*/
@@ -55,6 +56,7 @@ display: flex;
 gap: 1rem;
 /* box-shadow: 0 0 10px green, 0 0 10px blue; */
 align-items: center;
+font-family: 'Poppins', sans-serif;s
 
 /*Links da barra de navegação*/
 }
@@ -77,6 +79,7 @@ color: #fff;
 font-size: 1.5rem;
 cursor: pointer;
 display: none;
+font-family: 'Poppins', sans-serif;
 }
 
 /*Botão de ação da barra de navegação*/
@@ -146,6 +149,7 @@ justify-content: center;
 
 
 
+
 .titulo {
     font-size: 27px;
     font-family: 'Poppins', sans-serif;
@@ -159,32 +163,295 @@ justify-content: center;
     width: 45%;
     height: 30vh;
     background-color: #EFF0F2;
-    margin-left: 30px;
+    margin-left: 45px;
     margin-top: 40px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
-
+.resumo{
+    display: 	flex;
+}
 .descricao{
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: black;
-  width: 50%;
+  width: 60%;
   /* height: 50% ; */
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 0px;
   display: flex;
 }
 
 .valor{
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Poppins', sans-serif;
   color: black;
   /* width: 100%;  */
+  height: 65%;
   text-align: center;
-  margin-left: 60%;
+  /* margin-left: 60%; */
   display: flex;
+  margin-top: 2vh;
+}
+.valortotal{
+  height: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #291BC4;
+}
+.todosvalores{
+  text-align: center;
+}
+/* carrossel de imagens */
+.slideshow {
+  width: 32vw;
+  height: 38vh;
+  overflow: hidden;
+  position: absolute;
+  margin: -35vh 0 0 55vw;
+  border-radius: 12px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+.slideshow img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: transform 1s ease-in-out;
+}
+
+.slideshow img:nth-child(1) {
+  transform: translateX(0);
+}
+
+.slideshow img:nth-child(2) {
+  transform: translateX(-100%);
+}
+
+.slideshow img:nth-child(3) {
+  transform: translateX(-200%);
+}
+
+.slideshow img:nth-child(4) {
+  transform: translateX(-300%);
+}
+/* botão para a troca de imagens */
+.slideshow button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 25px;
+  text-align: center;
+  padding-bottom: 1vh;
+}
+
+.slideshow button.prev {
+  left: 10px;
+}
+
+.slideshow button.next {
+  right: 10px;
+}
+
+/* Texto para mostrar as formas de pagamento*/
+.pagamento{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 12vh;
+  text-align: center;
+}
+
+/* botão direcionando para o pagamento*/
+.irpagamento{
+ background-color: #291BC4;
+ font-family: 'Poppins', sans-serif;
+ width: 18vw;
+ height: 4vh;
+ text-align: center;
+ margin-left: 38.5vw;
+ display: block;    
+ padding-top: 9px;
+ text-align: center;
+ border-radius: 10px;
+ margin: auto;
+}
+
+/* imagens das formas de pagamento*/
+.divimagem{
+  width: 50vw;
+  height: 12vh;
+  margin-left: 42.5vw;
+  margin-top: 2vh;
+
+}
+.imagem1{
+  width: 3vw;
+  height: 5vh;
+}
+.imagem2{
+  width: 2.5vw;
+  height: 5vh;
+}
+.imagem3{
+  width: 2.5vw;
+  height: 5vh;
+}
+.imagem4{
+  width: 3vw;
+  height: 5vh;
+}
+.imagem5{
+  width: 3vw;
+  height: 5vh;
 }
 
 
+
+
+
+:root {
+  --button-background: #EFF0F2;
+  --button-color: rgb(0, 0, 0);
+  --dropdown-highlight: dodgerblue;
+  --dropdown-width: 160px;
+  --dropdown-background: white;
+  --dropdown-color: black;
+}
+
+
+
+/* Boring button styles */
+a.button {
+  /* Frame */
+  display: inline-block;
+  padding: 20px 28px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  display: flex;
+  /* gap: 2rem; */
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  border-radius: 15px;
+  padding-bottom: 4.5px;
+  padding-top: 4.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  /* Style */
+  border: none;
+  background: var(--button-background);
+  color: var(--button-color);
+  font-size: 2.7vh;
+  cursor: pointer;
+  margin-left: 2vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.button:active {
+  filter: brightness(75%);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  padding: 0;
+  margin-right: 1em;
   
+  border: none;
+}
+
+.dropdown summary {
+  list-style: none;
+  list-style-type: none;
+}
+
+.dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown summary:focus a.button {
+  border: 2px solid white;
+}
+
+.dropdown summary:focus {
+  outline: none;
+}
+
+.dropdown ul {
+  position: absolute;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  width: var(--dropdown-width);
+  left: 50%;
+  margin-left: calc((var(--dropdown-width) / 2)  * -1);
+  box-sizing: border-box;
+  z-index: 2;
+  
+  background: var(--dropdown-background);
+  border-radius: 6px;
+  list-style: none;
+}
+
+.dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown ul li a:link, .dropdown ul li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: var(--dropdown-color);
+  text-decoration: none;
+}
+
+.dropdown ul li a:hover {
+  background-color: var(--dropdown-highlight);
+  color: var(--dropdown-background);
+}
+
+/* Dropdown triangle */
+.dropdown ul::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent var(--dropdown-background) transparent;
+}
+
+
+/* Close the dropdown with outside clicks */
+.dropdown > summary::before {
+  display: none;
+}
+
+.dropdown[open] > summary::before {
+    content: ' ';
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+

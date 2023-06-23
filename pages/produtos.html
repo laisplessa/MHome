@@ -6,27 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
 
-    <link rel="stylesheet" type="text/css" href="..\assets\style-produtos.css">
+    <link rel="stylesheet" type="text/css" href="../assets/style-produtos.css">
 
 </head>
-
-<header>
+<body>
+    <header>
+        <!--Barra de navegação-->
         <div class="navbar">
             <div class="logoimagem"> 
-                <img src="https://i.pinimg.com/originals/8b/5c/e9/8b5ce93cf536a710ccec51ef0bdf46e9.png" alt="Logo MHome" width="25%" height="25%">
+              <img src="https://i.pinimg.com/originals/8b/5c/e9/8b5ce93cf536a710ccec51ef0bdf46e9.png" alt="Logo MHome" width="25%" height="25%">
             </div>
+            <!--Links da barra de navegação-->
             <ul class="links">
-                <li><a class="links1" href="hero">Início</a></li>
-                <li><a class="links1" href="products">Produtos</a></li>
-                <li><a class="links1" href="about">Sobre</a></li>
-                <li><a class="links1" href="contact">Contato</a></li>
+                <li><a class="links1" a href="index.html">Início</a></li>
+                <li><a class="links1" a href="produtos.html">Produtos</a></li>
+                <li><a class="links1" a href="sobrenos.html">Sobre</a></li>
+                <li><a class="links1" a href="contato.html">Contato</a></li>
             </ul>
-            <a href="#" class="action_btn">Começar</a>
+    
+            <details class="dropdown">
+              <summary role="button">
+                <a class="button">☰</a>
+              </summary>
+              <ul>
+                <li><a href="minhaconta.html">Minha conta</a></li>
+                <li><a href="meuspedidos.html">Pedidos</a></li>
+                <li><a href="sacola.html">Sacola</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+          </details>
+          
+            <!-- <a href="cadastro.html" class="action_btn">Começar</a>
             <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars"></i> -->
             </div>
         </div>
-
+        <!--Links menu suspenso-->
         <div class="dropdown_menu">
             <li><a href="hero">Início</a></li>
                 <li><a href="products">Produtos</a></li>
@@ -34,9 +49,9 @@
                 <li><a href="contact">Contato</a></li>
                 <li><a href="#" class="action_btn">Começar</a></li>
         </div>
+        
     </header>
 
-<body>
     
 
 <!-- fundo para as caixas de busca, caixa de texto pro local de partida, caixa de texto pro local de retorno e caixa pra selecionar o horário -->

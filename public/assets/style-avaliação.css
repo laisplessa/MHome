@@ -392,7 +392,7 @@ a.button:active {
   color: var(--dropdown-background);
 }
 
-/* Dropdown triangle */
+/* Triangulo menu suspenso */
 .dropdown ul::before {
   content: ' ';
   position: absolute;
@@ -407,7 +407,7 @@ a.button:active {
 }
 
 
-/* Close the dropdown with outside clicks */
+/* Fecha o menu suspenso sem clicar */
 .dropdown > summary::before {
   display: none;
 }

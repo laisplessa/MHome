@@ -141,7 +141,7 @@ justify-content: center;
 }
 
 
-
+/*Formulário esqueci minha senha*/
 .form-container {
     width: 330px;
     border-radius: 0.75rem;
@@ -154,6 +154,7 @@ justify-content: center;
     margin-top: 10%;
   }
   
+  /*Titulo*/
   .title {
     text-align: center;
     font-size: 1.5rem;
@@ -163,6 +164,7 @@ justify-content: center;
     font-family: 'Poppins', sans-serif;
   }
 
+  /*Subtitulo*/
   .subtitle {
     text-align: center;
     font-size: 2.5vh;
@@ -198,7 +200,7 @@ justify-content: center;
     border-color: blue;
   }
 
-
+/*Botão*/
   button{
     width: 130px;
     height: 40px;
@@ -240,7 +242,7 @@ justify-content: center;
 
 
 
-/* Boring button styles */
+/* Botões */
 a.button {
   /* Frame */
   display: inline-block;
@@ -271,7 +273,7 @@ a.button:active {
   filter: brightness(75%);
 }
 
-/* Dropdown styles */
+/* Estilos de menu suspenso */
 .dropdown {
   position: relative;
   padding: 0;
@@ -336,7 +338,7 @@ a.button:active {
   color: var(--dropdown-background);
 }
 
-/* Dropdown triangle */
+/* Triangulo do menu suspenso */
 .dropdown ul::before {
   content: ' ';
   position: absolute;
@@ -351,7 +353,7 @@ a.button:active {
 }
 
 
-/* Close the dropdown with outside clicks */
+/* Fechar o menu suspenso com clicks externos */
 .dropdown > summary::before {
   display: none;
 }

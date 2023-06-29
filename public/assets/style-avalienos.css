@@ -171,7 +171,7 @@ width: 100%;
 
 
 
-
+/*Sistema de avaliação*/
 .container{
 position: relative;
 width: 400px;
@@ -313,7 +313,7 @@ background: blue;
 
 
 
-/* Boring button styles */
+/* Botões */
 a.button {
   /* Frame */
   display: inline-block;
@@ -344,7 +344,7 @@ a.button:active {
   filter: brightness(75%);
 }
 
-/* Dropdown styles */
+/* Estilos menu suspenso */
 .dropdown {
   position: relative;
   padding: 0;
@@ -409,7 +409,7 @@ a.button:active {
   color: var(--dropdown-background);
 }
 
-/* Dropdown triangle */
+/* Triangulo menu suspenso */
 .dropdown ul::before {
   content: ' ';
   position: absolute;
@@ -424,7 +424,7 @@ a.button:active {
 }
 
 
-/* Close the dropdown with outside clicks */
+/* Fecha o menu suspenso sem clicks */
 .dropdown > summary::before {
   display: none;
 }

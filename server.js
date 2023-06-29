@@ -10,11 +10,10 @@ const path = require('path')
 app.use(express.static('public'));
 
 
-
 const connection = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
-  password: 'root',
+  password: '',
   database: 'mhome',
 });
 
@@ -42,7 +41,8 @@ app.post('/login', (req, res) => {
       if (rows.length > 0) {
         
         if ( rows[0].senha === password) {
-            res.send('Login com Sucesso!!!');
+          console.log('Login com Sucesso!!!');
+            res.sendFile(__dirname + '/public/index.html')
             } else {
              res.send('Senha incorreta');
             }

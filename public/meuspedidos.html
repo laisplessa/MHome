@@ -54,7 +54,7 @@
     </header>
 
 
-    
+    <!--Botãos barra de status do pedido-->
     <div class="conteudo">
         <div class="barra">
             <div class="todos">Todos</div>
@@ -63,9 +63,15 @@
             <hr>
         </div>
 
+    
+    <!--ABA TODOS OS PEDIDOS-->
         <div class="p_todos mostrar">
+
+            <!--pedido 1-->
             <div class="pedido1">
 
+
+            
                 <div class="nomevan"><b>Mercedes Sprinter</b></div>
                 <div class="rotaevalor">
                     <div class="divsprinter">
@@ -73,13 +79,15 @@
                     </div>
                     <div class="rota">
                         <p><b>SANTOS - SP → SÃO PAULO - SP </b> </p>
+                        <p2>28/06/2023 - 30/06/2023</p2>
                     </div>
                     <div class="valor"> <b>R$ 2.299,99</b>
 
                     </div>
                 </div>
-                <!-- <hr> -->
+                
             </div>
+            <!--pedido 2-->
             <div class="pedido2">
 
                 <div class="nomevan2"><b>Renault Master</b></div>
@@ -89,29 +97,30 @@
                     </div>
                     <div class="rota2">
                         <p><b>FORTALEZA - CE → ARACATI - CE </b> </p>
+                        <p2>11/08/2022 - 16/08/2022</p2>
                     </div>
                     <div class="valor2"> <b>R$ 4.599,99</b>
 
                     </div>
                 </div>
-                <!-- <hr> -->
             </div>
         </div>
 
         <!-- A PAGAR -->
         <div class="p_apagar">
+            <!--pedido 1-->
             <div class="pedido1">
                 <div class="nomepagamento">
                     <div class="nomevan"><b>Mercedes Sprinter</b></div>
                     <div class="statuspagamento"><B>PAGAMENTO PENDENTE</B></div>
                 </div>
                 <div class="rotaevalor">
-
                     <div class="divsprinter">
                         <img class="fotos" src="https://i.pinimg.com/originals/f7/25/34/f7253483a57617a074a3662cb70e2c45.png">
                     </div>
                     <div class="rota">
                         <p><b>SANTOS - SP → SÃO PAULO - SP </b> </p>
+                        <p2>28/06/2023 - 30/06/2023</p2>
                     </div>
                     <div class="valor"> <b>R$ 2.299,99</b>
 
@@ -119,6 +128,8 @@
                 </div>
                 <!-- <hr> -->
             </div>
+
+            <!--pedido 2-->
             <div class="pedido2">
                 <div class="nomepagamento2">
                     <div class="nomevan2"><b>Renault Master</b></div>
@@ -130,6 +141,7 @@
                     </div>
                     <div class="rota2">
                         <p><b>FORTALEZA - CE → ARACATI - CE </b> </p>
+                        <p2>11/08/2022 - 16/08/2022</p2>
                     </div>
                     <div class="valor2"> <b>R$ 4.599,99</b>
 
@@ -140,42 +152,58 @@
         </div>
         <!-- FINALIZADO -->
         <div class="p_finalizado">
+            <!--pedido 1-->
             <div class="pedido1">
 
                 <div class="nomevan"><b>Mercedes Sprinter</b></div>
                 <div class="rotaevalor">
+                    <!--Foto van-->
                     <div class="divsprinter">
                         <img class="fotos" src="https://i.pinimg.com/originals/f7/25/34/f7253483a57617a074a3662cb70e2c45.png">
                     </div>
+                    <!--rota -->
                     <div class="rota">
                         <p><b>SANTOS - SP → SÃO PAULO - SP </b> </p>
+                        <p2>28/06/2023 - 30/06/2023</p2>
                     </div>
+                    <!--Valor do pedido-->
                     <div class="valor"> <b>R$ 2.299,99</b></div>
+
+                    <!--Botão direcionando para pag de avalie-nos-->
                     <div class="avaliar">
-                        <a href="#">AVALIAR</a>
+                        <a href="avalie-nos.html">AVALIAR</a>
                     </div>
                 </div>
                 <!-- <hr> -->
             </div>
+            <!--pedido 2 -->
             <div class="pedido2">
 
                 <div class="nomevan2"><b>Renault Master</b></div>
                 <div class="rotaevalor2">
+                     <!--Foto van-->
                     <div class="divrenault">
                         <img class="fotos2" src="https://i.pinimg.com/originals/31/15/5f/31155f0ef9608436afd0f2789eb0146c.png">
                     </div>
+                      <!--rota -->
                     <div class="rota2">
                         <p><b>FORTALEZA - CE → ARACATI - CE </b> </p>
+                        <p2>11/08/2022 - 16/08/2022</p2>
                     </div>
+                      <!--Valor do pedido-->
                     <div class="valor2"> <b>R$ 4.599,99</b></div>
+                      <!--Botão direcionando para pag de avalie-nos-->
                     <div class="avaliar2">
-                        <a href="#">AVALIAR</a>
+                        <a href="avalie-nos.html">AVALIAR</a>
                     </div>
                 </div>
                 <!-- <hr> -->
             </div>
         </div>
     </div>
+
+    <!--Java Script para mostrar abas separadamente-->
+
     <script>
         const conteudos = document.querySelector(".conteudo")
 

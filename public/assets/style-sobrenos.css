@@ -155,7 +155,7 @@ justify-content: center;
 
 
 
-
+/*Foto da Equipe*/
 .divfoto {
     /* margin-left: 370px; */
     width: 40%;
@@ -172,7 +172,7 @@ justify-content: center;
 }
 
 
-
+/*Título "Sobre Nós"*/
 .titulo {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
@@ -184,7 +184,7 @@ justify-content: center;
     display: flex;
 }
 
-
+/*Descrição sobre a empresa*/
 .subtitulo {
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
@@ -203,12 +203,12 @@ justify-content: center;
 
 
 
-.linha {
+/* .linha {
     border: 1px solid black;
     border-radius: 15px;
     width: 600px;
     margin-left: 50px;
-}
+} */
 
 
 
@@ -224,7 +224,7 @@ justify-content: center;
   
   
   
-  /* Boring button styles */
+ /* Botão */
   a.button {
     /* Frame */
     display: inline-block;
@@ -241,7 +241,7 @@ justify-content: center;
     padding-right: 10px;
     color: black;
     font-family: 'Poppins', sans-serif;
-    /* Style */
+      /* Estilo do botão*/
     border: none;
     background: var(--button-background);
     color: var(--button-color);
@@ -255,7 +255,7 @@ justify-content: center;
     filter: brightness(75%);
   }
   
-  /* Dropdown styles */
+ /* Estilo de menu suspenso */
   .dropdown {
     position: relative;
     padding: 0;
@@ -320,7 +320,7 @@ justify-content: center;
     color: var(--dropdown-background);
   }
   
-  /* Dropdown triangle */
+ /* ícone menu suspenso*/
   .dropdown ul::before {
     content: ' ';
     position: absolute;
@@ -335,7 +335,7 @@ justify-content: center;
   }
   
   
-  /* Close the dropdown with outside clicks */
+  /*Fecha o menu suspenso com clicks externos*/
   .dropdown > summary::before {
     display: none;
   }
@@ -351,4 +351,3 @@ justify-content: center;
       z-index: 1;
   }
   
-

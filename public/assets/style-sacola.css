@@ -277,17 +277,21 @@ justify-content: center;
 
 /* botão direcionando para o pagamento*/
 .irpagamento{
- background-color: #291BC4;
- font-family: 'Poppins', sans-serif;
- width: 18vw;
- height: 4vh;
- text-align: center;
- margin-left: 38.5vw;
- display: block;    
- padding-top: 9px;
- text-align: center;
- border-radius: 10px;
- margin: auto;
+  background: blue;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 12px;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 4px;
+    margin-top: -2.3vh;
+    display: block;
+    width: 31vh;
+    text-align: center;
+    margin-left: 87vh;
+    font-size: 2.8vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* imagens das formas de pagamento*/

@@ -312,7 +312,7 @@ justify-content: center;
 
 
 :root {
-  --button-background: #EFF0F2;
+  --button-background: #e5e6e7;
   --button-color: rgb(0, 0, 0);
   --dropdown-highlight: dodgerblue;
   --dropdown-width: 160px;

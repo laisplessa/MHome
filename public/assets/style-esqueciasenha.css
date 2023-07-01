@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #EFF0F2;
+    background-color: #e5e6e7;
 }
 
 /*Lista*/
@@ -201,20 +201,23 @@ justify-content: center;
   }
 
 /*Botão*/
-  button{
-    width: 130px;
-    height: 40px;
-    border: 3px solid blue;
-    border-radius: 45px;
-    transition: all 0.3s;
-    cursor: pointer;
-    background: white;
-    font-size: 2.5vh;
-    font-weight: 550;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 30px;
-    margin-left: 15vh;
-  }
+    .buttonfinalizar {
+      background: blue;
+      border: 0;
+      color: #fff;
+      cursor: pointer;
+      padding: 7px 12px;
+      text-decoration: none;
+      transition: 0.2s;
+      border-radius: 4px;
+      margin-top: 3.7vh;
+      display: block;
+      width: 25vh;
+      text-align: center;
+      margin-left: 11vh;
+      font-size: 2.8vh;
+      font-family: 'Poppins', sans-serif;
+      }
   
   button:hover {
     background: blue;
@@ -232,7 +235,7 @@ justify-content: center;
 
 
 :root {
-  --button-background: #EFF0F2;
+  --button-background: #e5e6e7;
   --button-color: rgb(0, 0, 0);
   --dropdown-highlight: dodgerblue;
   --dropdown-width: 160px;

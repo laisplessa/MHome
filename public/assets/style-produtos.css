@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #EFF0F2;
+    background-color: #e5e6e7;
 }
 
 /*Lista*/
@@ -146,7 +146,7 @@ justify-content: center;
 
 /* caixa de fundo para caixa de busca */
 .form-container {
-  width: 83.3%;
+  width: 70vw;
   background-color: #fff;
   color: rgba(243, 244, 246, 1);
   margin: auto;
@@ -471,6 +471,7 @@ label {
 .produto-item .avaliacao {
   display: flex;
   margin-top: 10px;
+  margin-left: -7vh;
 }
 
 .produto-item .avaliacao img {
@@ -495,7 +496,7 @@ label {
   border: 0;
   color: #fff;
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 7px 12px;
   text-decoration: none;
   transition: 0.2s;
   border-radius: 4px;
@@ -516,7 +517,7 @@ label {
 
 
 :root {
-  --button-background: #EFF0F2;
+  --button-background: #e5e6e7;
   --button-color: rgb(0, 0, 0);
   --dropdown-highlight: dodgerblue;
   --dropdown-width: 160px;
@@ -653,4 +654,11 @@ a.button:active {
     left: 0;
     bottom: 0;
     z-index: 1;
+}
+
+a.descricaoavaliacao{
+  color: black;
+  font-size: 2vh;
+  margin-left: 1vh;
+  text-decoration: underline;
 }

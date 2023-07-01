@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #e5e6e7;
+    background-color: #EFF0F2;
 }
 
 /*Lista*/
@@ -753,23 +753,72 @@ justify-content: center;
 
 
             /* botão salvar */
-            .buttonfinalizar {
-                background: blue;
+            button {
+                --primary-color: blue;
+                --secondary-color: white;
+                --hover-color: rgb(175, 223, 253);
+                --arrow-width: 10px;
+                --arrow-stroke: 2px;
+                box-sizing: border-box;
                 border: 0;
-                color: #fff;
-                cursor: pointer;
-                padding: 7px 12px;
-                text-decoration: none;
+                border-radius: 20px;
+                color: var(--secondary-color);
+                padding: 1em 1.8em;
+                background: var(--primary-color);
+                display: flex;
                 transition: 0.2s;
-                border-radius: 4px;
-                margin-top: -1vh;
-                display: block;
-                width: 20vh;
-                text-align: center;
-                margin-left: 74vh;
-                font-size: 2.2vh;
-                font-family: 'Poppins', sans-serif;
-                }
+                align-items: center;
+                gap: 0.6em;
+                font-weight: bold;
+                margin-left: 80%;
+                
+            }
+            
+            button .arrow-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            
+            button .arrow {
+                margin-top: 1px;
+                width: var(--arrow-width);
+                background: var(--primary-color);
+                height: var(--arrow-stroke);
+                position: relative;
+                transition: 0.2s;
+                
+            }
+            
+            button .arrow::before {
+                content: "";
+                box-sizing: border-box;
+                position: absolute;
+                border: solid var(--secondary-color);
+                border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+                display: inline-block;
+                top: -3px;
+                right: 3px;
+                transition: 0.2s;
+                padding: 3px;
+                transform: rotate(-45deg);
+                
+            }
+            
+            button:hover {
+                background-color: var(--hover-color);
+                color: black;
+            }
+            
+            button:hover .arrow {
+                background: var(--secondary-color);
+            }
+            
+            button:hover .arrow:before {
+                right: 0;
+            }
+
     
             .fundo {
                 width: 100%;
@@ -791,7 +840,7 @@ justify-content: center;
 
             
 :root {
-    --button-background: #e5e6e7;
+    --button-background: #EFF0F2;
     --button-color: rgb(0, 0, 0);
     --dropdown-highlight: dodgerblue;
     --dropdown-width: 160px;

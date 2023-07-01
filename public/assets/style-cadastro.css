@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #e5e6e7;
+    background-color: #EFF0F2;
 }
 
 /*Lista*/
@@ -261,7 +261,7 @@ form .text h3 a:hover{
 
 
 :root {
-  --button-background: #e5e6e7;
+  --button-background: #EFF0F2;
   --button-color: rgb(0, 0, 0);
   --dropdown-highlight: dodgerblue;
   --dropdown-width: 160px;

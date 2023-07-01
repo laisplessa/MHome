@@ -42,8 +42,7 @@ app.post('/login', (req, res) => {
       if (rows.length > 0) {
         
         if ( rows[0].senha === password) {
-          console.log('Login com Sucesso!!!');
-          res.sendFile(__dirname + '/public/index.html')
+            res.send('Login com Sucesso!!!');
             } else {
              res.send('Senha incorreta');
             }
@@ -77,6 +76,6 @@ app.post('/cadastro', (req, res) => {
   });
 });
 
-app.listen(3001, () => {
-  console.log('Servidor rodando na porta 3001!')
+app.listen(3000, () => {
+  console.log('Servidor rodando na porta 3000!')
 })

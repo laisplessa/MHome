@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #e5e6e7;
+    background-color: #EFF0F2;
 }
 
 /*Lista*/
@@ -471,7 +471,6 @@ label {
 .produto-item .avaliacao {
   display: flex;
   margin-top: 10px;
-  margin-left: -7vh;
 }
 
 .produto-item .avaliacao img {
@@ -496,7 +495,7 @@ label {
   border: 0;
   color: #fff;
   cursor: pointer;
-  padding: 7px 12px;
+  padding: 10px 15px;
   text-decoration: none;
   transition: 0.2s;
   border-radius: 4px;
@@ -517,7 +516,7 @@ label {
 
 
 :root {
-  --button-background: #e5e6e7;
+  --button-background: #EFF0F2;
   --button-color: rgb(0, 0, 0);
   --dropdown-highlight: dodgerblue;
   --dropdown-width: 160px;
@@ -654,11 +653,4 @@ a.button:active {
     left: 0;
     bottom: 0;
     z-index: 1;
-}
-
-a.descricaoavaliacao{
-  color: black;
-  font-size: 2vh;
-  margin-left: 1vh;
-  text-decoration: underline;
 }

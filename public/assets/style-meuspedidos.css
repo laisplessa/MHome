@@ -2,11 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #e5e6e7;
-}
-.mostrar{
-  height: 500px !important;
-  transition: 1s;
+    background-color: #EFF0F2;
 }
 
 /*Lista*/
@@ -144,9 +140,6 @@ display: flex;
 justify-content: center;
 }
 
-
-
-/*barra de navegação dos status de pedidos*/
 .barra{
     background-color: #FFFFFF;
     margin-top: 5vh;
@@ -160,7 +153,6 @@ justify-content: center;
     color: black;
 }
 
-/*botão todos, a pagar e finalizado*/
 .todos, .apagar,.finalizado {
     text-align: center;
     width: 33%;
@@ -174,7 +166,6 @@ justify-content: center;
     overflow: hidden;
 }
 
-/*início pedido 1*/
 .pedido1{
     background-color: #FFFFFF;
     margin-top: 5vh;
@@ -183,13 +174,13 @@ justify-content: center;
     margin-left: 10vh;
     
 }    
-
 .nomepagamento{
     display: flex;
 }
+/* .statuspagamento{
+    width: 70%;
+    margin-left: 30%; */
 
-
-/*Nome "Mercedes Sprinter"*/
 .nomevan{
     font-family: 'Poppins', sans-serif;
     margin-left: 8vh;
@@ -198,8 +189,6 @@ justify-content: center;
     /* margin-top: 5vh; */
     padding-top: 10px;
 }
-
-/*Texto "Pagamento pendente"*/
 .statuspagamento{
     color: red;
     width: 33vh;
@@ -211,8 +200,15 @@ justify-content: center;
 
 }
 
+/* .nomevan{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 8vh;
+    font-size: 17px;
+    /* margin-top: 5vh; */
+    /* padding-top: 10px; */
 
-/*Foto Mercedes Sprinter*/
+
+
 .fotos {
     text-align: center;
     font-size: 20px;
@@ -223,7 +219,6 @@ justify-content: center;
 
 }
 
-
 .divsprinter {
     /* margin-left: 50px; */
     /* width: 50%; */
@@ -233,8 +228,6 @@ justify-content: center;
     align-items: center;
 
 }
-
-/*Rota e valor do pedido*/
 .rota{
     width: 48%;
     margin-left: 10vh;
@@ -256,21 +249,11 @@ justify-content: center;
 
     
 }
-/*Botão que direciona para página de "Avalie-nos"*/
-.avaliar{
-  text-align: center;
-  width: 26vh;
-  margin-top: 2.9vh;
-}
-
 /* hr {
         border: 0;
         height: 2px;
         background-image: linear-gradient(to right, transparent, black, transparent); 
 } */
-
-/*início pedido 2*/
-
 .pedido2{
     background-color: #FFFFFF;
     margin-top: 2vh;
@@ -283,8 +266,6 @@ justify-content: center;
 .nomepagamento2{
     display: flex;
 }
-
-/*Texto "Pagamento finalizado"*/
 .statuspagamento2{
     color: green;
     width: 33vh;
@@ -303,7 +284,7 @@ justify-content: center;
     padding-top: 10px;
 }
 
-/*Foto "Renault Master"*/
+
 .fotos2 {
     text-align: center;
     font-size: 20px;
@@ -323,8 +304,6 @@ justify-content: center;
     align-items: center;
 
 }
-
-/*Rota e valor do pedido*/
 .rota2{
     width: 48%;
     margin-left: 12vh;
@@ -346,8 +325,12 @@ justify-content: center;
 
     
 }
+.avaliar{
+    text-align: center;
+    width: 26vh;
+    margin-top: 2.9vh;
+}
 
-/*Botão que direciona para página de "Avalie-nos"*/
 .avaliar2{
     text-align: center;
     width: 26vh;
@@ -364,7 +347,7 @@ justify-content: center;
 
 
 :root {
-  --button-background: #e5e6e7;
+    --button-background: #EFF0F2;
     --button-color: rgb(0, 0, 0);
     --dropdown-highlight: dodgerblue;
     --dropdown-width: 160px;
@@ -374,9 +357,9 @@ justify-content: center;
   
   
   
- /* Botão */
+  /* Boring button styles */
   a.button {
-     /* Quadro */
+    /* Frame */
     display: inline-block;
     padding: 20px 28px;
     border-radius: 50px;
@@ -391,7 +374,7 @@ justify-content: center;
     padding-right: 10px;
     color: black;
     font-family: 'Poppins', sans-serif;
-   /* Estilo do botão*/
+    /* Style */
     border: none;
     background: var(--button-background);
     color: var(--button-color);
@@ -405,7 +388,7 @@ justify-content: center;
     filter: brightness(75%);
   }
   
- /* Estilo de menu suspenso */
+  /* Dropdown styles */
   .dropdown {
     position: relative;
     padding: 0;
@@ -469,8 +452,8 @@ justify-content: center;
     background-color: var(--dropdown-highlight);
     color: var(--dropdown-background);
   }
-
-   /* ícone menu suspenso*/
+  
+  /* Dropdown triangle */
   .dropdown ul::before {
     content: ' ';
     position: absolute;
@@ -485,7 +468,7 @@ justify-content: center;
   }
   
   
- /*Fecha o menu suspenso com clicks externos*/
+  /* Close the dropdown with outside clicks */
   .dropdown > summary::before {
     display: none;
   }
@@ -501,13 +484,3 @@ justify-content: center;
       z-index: 1;
   }
   
-  /*Data pedido 1*/
-    .rota p2{
-   margin-left: 2vw;
-   font-size: 14px;   
-  }
-  /*Data dp pedido 2*/
-  .rota2 p2{
-    margin-left: 2.7vw;
-    font-size: 14px;   
-   }

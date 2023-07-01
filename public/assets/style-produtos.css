@@ -146,7 +146,7 @@ justify-content: center;
 
 /* caixa de fundo para caixa de busca */
 .form-container {
-  width: 70vw;
+  width: 83.3%;
   background-color: #fff;
   color: rgba(243, 244, 246, 1);
   margin: auto;

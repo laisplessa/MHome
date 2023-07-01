@@ -159,7 +159,7 @@ justify-content: center;
   color: rgb(0, 0, 0);
   border-radius: 0.75rem;
   padding: 2rem;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-top: 7vh;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   height: 50vh;
@@ -207,8 +207,8 @@ justify-content: center;
   color: rgb(0, 0, 0);
   border-radius: 0.75rem;
   padding: 2rem;
-  margin-left: 77vh;
-  margin-top: -58vh;
+  margin-left: 74vh;
+  margin-top: -393px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   height: 50vh;
   font-family: 'Poppins', sans-serif;
@@ -236,7 +236,7 @@ justify-content: center;
   border-radius: 0.75rem;
   padding: 2rem;
   margin-left: 143vh;
-  margin-top: -58vh;
+  margin-top: -393px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   height: 50vh;
   font-family: 'Poppins', sans-serif;
@@ -325,24 +325,6 @@ a.button {
 
 a.button:active {
   filter: brightness(75%);
-}
-
-.botaoavaliar {
-  background: blue;
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    padding: 7px 12px;
-    text-decoration: none;
-    transition: 0.2s;
-    border-radius: 4px;
-    margin-top: 3vh;
-    display: block;
-    width: 31vh;
-    text-align: center;
-    margin-left: 87vh;
-    font-size: 2.8vh;
-    font-family: 'Poppins', sans-serif;
 }
 
 /* Dropdown styles */
@@ -440,3 +422,23 @@ a.button:active {
     bottom: 0;
     z-index: 1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

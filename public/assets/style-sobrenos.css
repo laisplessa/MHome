@@ -167,7 +167,7 @@ justify-content: center;
 }
 .foto{
     /* height: 300px; */
-    width:500px;
+    width:593px;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ justify-content: center;
 
 /*Descrição sobre a empresa*/
 .subtitulo {
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     /* font-style: oblique; */
     margin: 0 0 0 50px;

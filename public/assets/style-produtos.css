@@ -296,23 +296,22 @@ label {
 
 
 /* botão para "buscar" */
-.button {
-  width: 140px;
-  height: 46px;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to left, blue, blue);
-  border-radius: 4px;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  border: none;
-  position: relative;
-  cursor: pointer;
-  transition-duration: .2s;
-  box-shadow: 0px 10px 20px -18px;
-  margin-left: 145vh;
-  margin: 19.71px;
-  display: inline-flex;
+.irpagamento{
+  background: blue;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 12px;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 4px;
+    margin-top: -6.300000000000001vh;;
+    display: block;
+    width: 14vh;
+    text-align: center;
+    margin-left: 121.5vh;
+    font-size: 2.8vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 

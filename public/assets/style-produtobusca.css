@@ -36,7 +36,6 @@ margin: 0 auto;
 display: flex;
 align-items: center;
 justify-content: space-between;
-font-family: 'Poppins', sans-serif;
 }
 
 /*Barra de navegação e imagem da logo*/
@@ -56,11 +55,9 @@ display: flex;
 gap: 1rem;
 /* box-shadow: 0 0 10px green, 0 0 10px blue; */
 align-items: center;
-font-family: 'Poppins', sans-serif;
-}
 
 /*Links da barra de navegação*/
-
+}
 .navbar .links1 {
 display: flex;
 /* gap: 2rem; */
@@ -80,7 +77,6 @@ color: #fff;
 font-size: 1.5rem;
 cursor: pointer;
 display: none;
-font-family: 'Poppins', sans-serif;
 }
 
 /*Botão de ação da barra de navegação*/
@@ -148,135 +144,159 @@ justify-content: center;
 
 
 
-
-
-/*Título "Resumo da viagem"*/
-.titulo {
-    font-size: 27px;
-    font-family: 'Poppins', sans-serif;
-    color: blue;
-    width: 100%; 
-    margin-top: 8vh;
-    margin-left: 20px;
+/* caixa de fundo para caixa de busca */
+.form-container {
+  width: 70vw;
+  background-color: #fff;
+  color: rgba(243, 244, 246, 1);
+  margin: auto;
+  margin-top: 20px;
+  height: 12vh;
 }
 
-/*Quadro de resumo*/
-.box{
-  width: 84vh;
-  height: 26vh;
-  background-color: #EFF0F2;
-  margin-left: 89px;
-  margin-top: 40px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-}
-.resumo{
-    display:  flex;
-}
 
-/*Descrição da viagem*/
-.descricao{
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  color: black;
-  width: 60%;
-  /* height: 50% ; */
-  margin-top: 15px;
-  margin-left: 0px;
-  display: flex;
-}
-
-/*Valor e taxa do pedido*/
-
-.valor{
-  font-size: 15px;
-  font-family: 'Poppins', sans-serif;
-  color: black;
-  /* width: 100%;  */
-  height: 65%;
-  text-align: center;
-  /* margin-left: 60%; */
-  display: flex;
-  margin-top: 2vh;
-}
-.valortotal{
-  height: 70%;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: #291BC4;
-}
-.todosvalores{
-  text-align: center;
-}
-
-/* carrossel de imagens */
-.slideshow {
-  width: 32vw;
-  height: 38vh;
-  overflow: hidden;
-  position: absolute;
-  margin: -32vh 0 0 60vw;
-  border-radius: 12px;
-  filter: drop-shadow(5px 5px 5px black);
-}
-
-.slideshow img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transition: transform 1s ease-in-out;
-}
-
-.slideshow img:nth-child(1) {
-  transform: translateX(0);
-}
-
-.slideshow img:nth-child(2) {
-  transform: translateX(-100%);
-}
-
-.slideshow img:nth-child(3) {
-  transform: translateX(-200%);
-}
-
-.slideshow img:nth-child(4) {
-  transform: translateX(-300%);
-}
-/* botão para a troca de imagens */
-.slideshow button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+/* input para caixa de texto "Local de partida" */
+.input {
+  max-width: 190px;
+  background-color: #d6d4d4;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 6.8vh;
+  border-radius: 4px;
+  outline: none;
   border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  margin-top: 3vh;
+  margin-left: 3vh;
+}
+
+input:focus {
+  border-bottom: 2px solid #5b5fc7;
+  border-radius: 4px 4px 2px 2px;
+}
+
+input:hover {
+  outline: 1px solid lightgrey;
+}
+
+
+
+
+
+
+label {
+  display: block;
+  font: 3rem 'Fira Sans', sans-serif;
+
+}
+
+input,
+label {
+  /* margin: 0.4rem 0; */
+  font-size: 15px;
+  margin-left: 30px;
+  border: solid 2px blue;
+  border-radius: 7px;
+  width: 30vh;
+}
+
+
+
+/* caixa de texto para "Data de partida" e "Data de retorno" */
+.textbox-n {
+  max-width: 190px;
+  background-color: #d6d4d4;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 6.3vh;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  margin-top: 3vh;
+}
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  /* margin: 0.4rem 0; */
+}
+
+
+/* caixa para selecionar o horário de partida */
+.horabox-n {
+  max-width: 190px;
+  background-color: #d6d4d4;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 6.3vh;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 0px 10px 20px -18px;
+  margin-top: 3vh;
+}
+
+
+
+
+
+/* button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3d405b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
   cursor: pointer;
-  font-size: 24px;
-  border-radius: 25px;
-  text-align: center;
-  padding-bottom: 1vh;
-}
+  margin: 5px;
+  margin-left: 40px;
+  height: 40px;
+  
 
-.slideshow button.prev {
-  left: 10px;
-}
+ }
+ 
 
-.slideshow button.next {
-  right: 10px;
-}
 
-/* Texto para mostrar as formas de pagamento*/
-.pagamento{
-  font-family: 'Poppins', sans-serif;
-  margin-top: 12vh;
-  text-align: center;
-}
+ button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ button:hover span {
+  padding-right: 15px;
+ }
+ 
+ button:hover span:after {
+  opacity: 1;
+  right: 0;
+ } */
 
-/* botão direcionando para o pagamento*/
-.irpagamento{
+
+/* botão para "buscar" */
+.buscar{
   background: blue;
     border: 0;
     color: #fff;
@@ -285,43 +305,38 @@ justify-content: center;
     text-decoration: none;
     transition: 0.2s;
     border-radius: 4px;
-    margin-top: -2.3vh;
+    margin-top: -6.300000000000001vh;;
     display: block;
-    width: 31vh;
+    width: 14vh;
     text-align: center;
-    margin-left: 85.5vh;
+    margin-left: 121.5vh;
     font-size: 2.8vh;
     font-family: 'Poppins', sans-serif;
 }
 
-/* imagens das formas de pagamento*/
-.divimagem{
-  width: 50vw;
-  height: 12vh;
-  margin-left: 42.5vw;
-  margin-top: 2vh;
 
+.button:hover {
+  background: linear-gradient(to left, #384fff, #384fff);
 }
-.imagem1{
-  width: 3vw;
-  height: 5vh;
+
+.button:active {
+  transform: scale(0.97);
+  transition-duration: .2s;
 }
-.imagem2{
-  width: 2.5vw;
-  height: 5vh;
+
+
+/* ícone de busca */
+.busca {
+  width: 23px;
+  height: 14px;
+  position: relative;
+  color: #011E44;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  align-items: center;
+  right: 10px;
 }
-.imagem3{
-  width: 2.5vw;
-  height: 5vh;
-}
-.imagem4{
-  width: 3vw;
-  height: 5vh;
-}
-.imagem5{
-  width: 3vw;
-  height: 5vh;
-}
+
 
 
 
@@ -338,9 +353,9 @@ justify-content: center;
 
 
 
-/* Botão */
+/* Boring button styles */
 a.button {
-     /* Quadro */
+  /* Frame */
   display: inline-block;
   padding: 20px 28px;
   border-radius: 50px;
@@ -355,7 +370,7 @@ a.button {
   padding-right: 10px;
   color: black;
   font-family: 'Poppins', sans-serif;
-    /* Estilo do botão*/
+  /* Style */
   border: none;
   background: var(--button-background);
   color: var(--button-color);
@@ -363,13 +378,15 @@ a.button {
   cursor: pointer;
   margin-left: 2vh;
   font-family: 'Poppins', sans-serif;
+  width: 40px;
+  height: 35px;
 }
 
 a.button:active {
   filter: brightness(75%);
 }
 
-/* Estilo de menu suspenso */
+/* Dropdown styles */
 .dropdown {
   position: relative;
   padding: 0;
@@ -434,7 +451,7 @@ a.button:active {
   color: var(--dropdown-background);
 }
 
-/* ícone menu suspenso*/
+/* Dropdown triangle */
 .dropdown ul::before {
   content: ' ';
   position: absolute;
@@ -449,7 +466,7 @@ a.button:active {
 }
 
 
- /*Fecha o menu suspenso com clicks externos*/
+/* Close the dropdown with outside clicks */
 .dropdown > summary::before {
   display: none;
 }
@@ -465,3 +482,9 @@ a.button:active {
     z-index: 1;
 }
 
+a.descricaoavaliacao{
+  color: black;
+  font-size: 2vh;
+  margin-left: 1vh;
+  text-decoration: underline;
+}

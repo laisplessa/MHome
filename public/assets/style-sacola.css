@@ -162,13 +162,13 @@ justify-content: center;
 
 /*Quadro de resumo*/
 .box{
-    width: 45%;
-    height: 30vh;
-    background-color: #EFF0F2;
-    margin-left: 45px;
-    margin-top: 40px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  width: 84vh;
+  height: 26vh;
+  background-color: #EFF0F2;
+  margin-left: 89px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 .resumo{
     display:  flex;
@@ -216,7 +216,7 @@ justify-content: center;
   height: 38vh;
   overflow: hidden;
   position: absolute;
-  margin: -35vh 0 0 55vw;
+  margin: -32vh 0 0 60vw;
   border-radius: 12px;
   filter: drop-shadow(5px 5px 5px black);
 }
@@ -289,7 +289,7 @@ justify-content: center;
     display: block;
     width: 31vh;
     text-align: center;
-    margin-left: 87vh;
+    margin-left: 85.5vh;
     font-size: 2.8vh;
     font-family: 'Poppins', sans-serif;
 }

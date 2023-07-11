@@ -42,7 +42,8 @@ app.post('/login', (req, res) => {
       if (rows.length > 0) {
         
         if ( rows[0].senha === password) {
-            res.send('Login com Sucesso!!!');
+          console.log("Login com sucesso!!");
+          res.sendFile(__dirname + '/public/index.html')
             } else {
              res.send('Senha incorreta');
             }

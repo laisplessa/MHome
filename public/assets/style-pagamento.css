@@ -160,7 +160,7 @@ justify-content: center;
 /* caixa de fundo */
 .box{
     width: 33%;
-    height: 87vh;
+    height: 81vh;
     background-color: white;
     margin: auto;
     margin-top: 4vh;
@@ -621,12 +621,12 @@ a.button:active {
   text-decoration: none;
   transition: 0.2s;
   border-radius: 4px;
-  margin-top: 3.7vh;
+  margin-top: 5vh;
   display: block;
   width: 25vh;
   text-align: center;
-  margin-left: 19vh;
-  font-size: 2.8vh;
+  margin-left: 20vh;
+  font-size: 2.5vh;
   font-family: 'Poppins', sans-serif;
   }
 

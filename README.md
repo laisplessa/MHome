@@ -1,9 +1,9 @@
 <h1 align="center"> MHome </h1>
 
 <br>
-<!-- <p align="center">
-  <img alt="projeto site" src="./github/Perfil.png" width="100%">
-</p> -->
+<p align="center">
+  <img alt="projeto site" src="./github/PNG.png" width="100%">
+</p>
 <h2>🚀 Tecnologias</h2>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br>
